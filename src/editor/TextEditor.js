@@ -6,7 +6,7 @@ import "./TextEditor.css";
 import "../App.css";
 
 export default function TextEditor ({
-  apiKey = 'ea8o1wxgkpkshbvf4klv9hlbu95q1fk1hbqql950f4xnzxl9',
+  apiKey = 'YOUR TINYMCE_API_KEY',
   initialContent = '',
 }) {
   const editorRef = useRef(null);
