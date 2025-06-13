@@ -1,0 +1,80 @@
+/* App Styles */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #1F2937; 
+  color: white;
+  padding: 1.5rem 1rem;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-title {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-bottom: 1rem;
+}
+
+.nav-links a,
+.src a {
+  color: #D1D5DB;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.nav-links a:hover,
+.src a:hover  {
+  background-color: #374151;
+  color: #FFFFFF;
+}
+
+
+.main-content {
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: #F9FAFB;
+}
+
+.footer {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center; 
+    padding: 10px;
+  }
+
+/* Event Type Colors */
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+.bg-green-500 {
+  background-color: #22c55e;
+}
+.bg-yellow-500 {
+  background-color: #eab308;
+}
+.bg-purple-500 {
+  background-color: #a855f7;
+}
+.bg-pink-500 {
+  background-color: #ec4899;
+}
